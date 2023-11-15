@@ -1,0 +1,28 @@
+.mensaje-bienvenida {
+  font-size: 2.5em;
+  text-align: center;
+  color: transparent;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  background: linear-gradient(180deg, #e0e0e0, #919191);
+  -webkit-background-clip: text;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button {
+  width: 502px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: transparent;
+  color: rgb(151, 151, 151);
+}/*# sourceMappingURL=home.component.css.map */

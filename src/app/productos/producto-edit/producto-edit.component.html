@@ -1,0 +1,44 @@
+<section>
+  <div class="container">
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+      <div>
+        <h2>Editar producto</h2>
+        <label>
+          Título
+          <input type="text" formControlName="title" />
+        </label>
+      </div>
+
+      <div>
+        <label>
+          Descripción
+          <input type="text" formControlName="description" />
+        </label>
+      </div>
+
+      <div>
+        <label>
+          Precio
+          <input type="number" formControlName="price" />
+        </label>
+      </div>
+
+      <div>
+        <label>
+          Categoría
+          <input type="text" formControlName="category" />
+        </label>
+      </div>
+
+      <div>
+        <label>
+          Imagen
+          <input type="text" formControlName="image" />
+        </label>
+      </div>
+
+      <button class="botones" type="submit">Guardar</button>
+      <button class="btnretroceso" routerLink="/productos"></button>
+    </form>
+  </div>
+</section>

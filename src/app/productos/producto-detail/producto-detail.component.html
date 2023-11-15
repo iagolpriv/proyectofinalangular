@@ -1,0 +1,13 @@
+<section>
+  <div *ngIf="product" class="producto">
+    <h1 class="titulo">{{ product.title }}</h1>
+    <p class="descripcion">{{ product.description }}</p>
+    <p class="precio">Precio: {{ product.price }}€</p>
+    <p class="categoria">Categoría: {{ product.category }}</p>
+    <button
+      class="btnretroceso"
+      routerLink="/productos/"
+      (click)="goToProducts()"
+    ></button>
+  </div>
+</section>

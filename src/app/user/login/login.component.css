@@ -1,0 +1,56 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #748394;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #5a6673;
+}
+
+.btnretroceso {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../assets/retroceso.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 370px;
+  background-color: #bababa;
+  border-radius: 5px;
+}/*# sourceMappingURL=login.component.css.map */

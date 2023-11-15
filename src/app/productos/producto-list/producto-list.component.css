@@ -1,0 +1,76 @@
+:host section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 80px;
+}
+:host .producto {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: 285px;
+}
+:host .producto:hover {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+  border-color: #666;
+  transform: scale(0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+:host .producto img {
+  width: 150px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+:host .producto .nombre {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+:host .producto .precio {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+:host .producto .descripcion {
+  font-size: 1em;
+  margin: 10px 0;
+}
+:host .producto .botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+:host .producto .botones button {
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8278ba;
+  color: white;
+}
+@media (max-width: 1268px) {
+  :host section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 868px) {
+  :host section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 568px) {
+  :host section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=producto-list.component.css.map */

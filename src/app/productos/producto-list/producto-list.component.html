@@ -1,0 +1,11 @@
+<section>
+  <div *ngFor="let producto of productos" class="producto">
+    <h2 class="nombre">{{ producto.title }}</h2>
+    <img [src]="producto.image" alt="{{ producto.title }}" />
+
+    <div class="botones">
+      <button (click)="handleButtonClick(producto)">Ver detalles</button>
+      <button (click)="editButtonClick(producto)">Editar</button>
+    </div>
+  </div>
+</section>

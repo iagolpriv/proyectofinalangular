@@ -1,0 +1,50 @@
+:host {
+  section {
+    gap: 20px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.producto {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .descripcion {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  .precio {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .categoria {
+    color: #5a5a5b;
+  }
+  .btnretroceso {
+    width: 20px;
+    height: 20px;
+    background-image: url("../../../assets/retroceso.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    text-indent: -9999px;
+    background-color: transparent;
+  }
+}

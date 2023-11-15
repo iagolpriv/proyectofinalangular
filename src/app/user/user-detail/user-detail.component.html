@@ -1,0 +1,18 @@
+<section>
+  <div class="container">
+    <div *ngIf="userDetails">
+      <h2>Detalles de usuario</h2>
+      <p><strong>Nombre:</strong> {{ userDetails.name.firstname }}</p>
+      <p><strong>Apellidos:</strong> {{ userDetails.name.lastname }}</p>
+      <p><strong>Email:</strong> {{ userDetails.email }}</p>
+      <p><strong>Teléfono:</strong> {{ userDetails.phone }}</p>
+
+      <h2>Dirección</h2>
+      <p><strong>Calle:</strong> {{ userDetails.address.street }}</p>
+      <p><strong>Número:</strong> {{ userDetails.address.number }}</p>
+      <p><strong>Ciudad:</strong> {{ userDetails.address.city }}</p>
+      <p><strong>C.P:</strong> {{ userDetails.address.zipcode }}</p>
+      <button class="btnretroceso" routerLink="/productos"></button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+<section>
+  <div class="container">
+    <form (ngSubmit)="login(username.value, password.value)">
+      <div>
+        <h2>Acceso</h2>
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" #username required />
+      </div>
+      <div>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" #password required />
+      </div>
+      <button type="submit">Iniciar sesión</button>
+      <button routerLink="/registro">Registrarse</button>
+      <button class="btnretroceso" routerLink="/"></button>
+    </form>
+  </div>
+</section>

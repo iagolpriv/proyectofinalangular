@@ -1,0 +1,23 @@
+footer.navbar {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.navbar-collapse {
+  height: 40px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul.navbar-nav li .nav-img {
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}/*# sourceMappingURL=app.component.css.map */
